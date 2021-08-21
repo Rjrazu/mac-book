@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac</title>
+
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+
+    <!-- MAIN START -->
+    <main>
+        <section class="container mt-4">
+            <div class="row border-bottom border-2">
+                <div class="col-lg-6">
+                    <img class="w-75" src="images/mac.png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h2> Customize Your Blue 24-inch iMac With Apple M1 Chip</h2>
+                    <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and
+                        16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 ports Magic
+                        Mouse Magic Keyboard - US English </p>
+                    <div class="mt-5 mb-3">
+                        <h5>Memory</h5>
+                        <button id="ram8gb-memory" class="btn btn-outline-primary">8GB unified memory</button>
+                        <button id="ram16gb-memory" class="btn btn-outline-primary">16GB unified
+                            memory</button>
+                    </div>
+                    <div class="mb-3">
+                        <h5>Storage</h5>
+                        <button id="ssd256-storage" class="btn btn-outline-primary">256GB SSD storage</button> <button
+                            id="ssd512-storage" class="btn btn-outline-primary">512GB SSD storage</button> <button
+                            id="ssd1tb-storage" class="btn btn-outline-primary">1TB SSD
+                            storage</button>
+                    </div>
+                    <div class="mb-3">
+                        <h5>Choose Your Delivery Option</h5>
+                        <button id="free-delivery" class="btn btn-outline-primary">Friday, Aug 25 Free Prime
+                            Delivery</button> <button id="cost-delivery" class="btn btn-outline-primary">Friday, Aug 21
+                            Delivery Charge
+                            $20</button>
+                    </div>
+                    <div class="count mt-5">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="d-flex justify-content-between border-bottom fw-bold">
+                                    <p>Best Price</p>
+                                    <p>$<span id="base-total">1280</span></p>
+                                </div>
+                                <div class="d-flex justify-content-between border-bottom fw-bold">
+                                    <p>Extra Memory Cost</p>
+                                    <p>$<span id="price-memory">0</span></p>
+                                </div>
+                                <div class="d-flex justify-content-between border-bottom fw-bold">
+                                    <p>Extra Storage Cost</p>
+                                    <p>$<span id="storage-memory">0</span></p>
+                                </div>
+                                <div class="d-flex justify-content-between border-bottom border-5 fw-bold">
+                                    <p>Delivery Cost</p>
+                                    <p>$<span id="delivery-cost">0</span></p>
+                                </div>
+                                <div class="d-flex justify-content-between fw-bold">
+                                    <p>Total Price</p>
+                                    <p>$<span id="total-price">1280</span></p>
+                                </div>
+                                <div class=" mb-3">
+                                    <p>Add Promo Code</p>
+                                    <div class="d-flex justify-content-between">
+                                        <input class="w-50" type="text" name="" id="coupon-field"> <button
+                                            id="coupon-button" class="btn btn-danger">Click Here</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-3 mb-4">
+                <h2 class="text-center">Total : $<span id="discount-total">1280</span></h2>
+            </div>
+        </section>
+    </main>
+    <!-- MAIN END -->
+
+    <!-- javascript files -->
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
