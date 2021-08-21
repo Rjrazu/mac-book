@@ -60,6 +60,10 @@ function UpdateTotal() {
     discountTotal.innerText = totalPrice;
 };
 
+
+
+// Promo Code 
+
 document.getElementById('coupon-button').addEventListener('click', function () {
     const getInputButton = document.getElementById('coupon-field');
     const getInputValue = getInputButton.value;
