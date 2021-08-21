@@ -39,7 +39,7 @@ storage1024Gb.addEventListener('click', function () {
     UpdateTotal();
 });
 
-// // Extra Memory 
+// // Delivery Cost
 const freeCharge = document.getElementById('free-delivery');
 const withCostDelivery = document.getElementById('cost-delivery');
 const deliveryCost = document.getElementById('delivery-cost');
